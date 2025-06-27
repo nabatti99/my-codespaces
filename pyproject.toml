@@ -1,0 +1,9 @@
+[project]
+name = "my-codespaces"
+version = "0.1.0"
+description = "Template for GitHub Codespaces"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5"
+]

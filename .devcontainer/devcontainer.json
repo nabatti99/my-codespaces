@@ -1,0 +1,23 @@
+{
+  "name": "uv",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "developer",
+  "waitFor": "onCreateCommand",
+  "onCreateCommand": "",
+  "updateContentCommand": "uv sync",
+  "postCreateCommand": "",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["main.py"]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "streetsidesoftware.code-spell-checker",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
